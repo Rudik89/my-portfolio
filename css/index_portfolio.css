@@ -1,0 +1,35 @@
+body {
+  padding: 10px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#experience {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+nav ul li {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+a {
+  text-decoration: none;
+  background-color: #f1f1f1;
+}
+div {
+  width: 600px;
+  text-align: justify;
+}
+.professional-skills {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
